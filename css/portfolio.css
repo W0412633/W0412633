@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'denseregular';
+    src: url('../fonts/Dense-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'dubairegular';
+	src: url('../fonts/Dubai-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Frank Ruhl Libre', serif;
+}
+
+header {
+	display: flex;
+	margin-top: -10px;
+	padding-left: 10%;
+	background-color: grey;
+	color: white;
+	border: 5px solid black;
+	flex-direction: column;
+	box-shadow: 3px 3px 3px black;
+	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+h1 {
+	font-size: 60px;
+	font-family: denseregular, Arial;
+	font-weight: 400;
+	
+}
+
+h2 {
+	font-family: denseregular, Arial;
+	font-size: 32px;
+}
+
+nav li {
+	position: relative;
+	left: -48px;
+	display: inline;
+	float: left;
+	list-style-type: none;
+	width: 20%;
+	margin-bottom: 20px;
+}
+
+nav a {
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	font-family: Verdana;
+	color: white;
+	background-color: grey;
+	padding-right: 54px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	transition-duration: 0.15s;
+	border: 1px solid black;
+}
+
+nav a:visited {
+	color: white;
+	background-color: grey;
+}
+
+nav a:hover {
+	color: grey;
+	background-color: white;
+}
+
+#avatar {
+	position: relative;
+	float: right;
+	margin-right: 5%;
+	top: -205px;
+	border: 1px solid black;
+	box-shadow: 2px 2px 2px black;
+}
+
+#home1 {
+	padding-top: -50px;
+}
+
+#home1, #home2 {
+	margin: auto;
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#bike {
+	width: 600px;
+	height: 365px;
+	background-image: url("../img/bike.jpg");
+}
+
+#c64 {
+	width: 600px;
+	height: 400px;
+	background-image: url("../img/c64.jpg");
+}
+
+#cape {
+	width: 600px;
+	height: 403px;
+	background-image: url("../img/cabot trail.jpg");
+}
+
+#music {
+	width: 600px;
+	height: 338px;
+	background-image: url("../img/music.jpg");
+}
+
+div > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	border: 3px solid black;
+	box-shadow: 3px 3px 3px black;
+	border-radius: 8px;
+}
+
+div > div > div {
+	background-color: rgba(128, 128, 128, 0.5);
+	padding: 10px;
+	border-radius: 0px;
+	text-align: center;
+	width: 50%;
+	color: white;
+	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+	font-size: 14px;
+}

@@ -1,0 +1,59 @@
+.button {
+    display: inline-block;
+    width: 256px;
+    height: 256px;
+    box-shadow: 0px 20px rgb(80, 80, 80);
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 15px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.button:hover {
+    background-color: lightgrey;
+}
+
+.button:active {
+    border: 1px solid black;
+    box-shadow: 0px 10px black;
+    transform: translateY(10px);
+}
+
+#fb {
+    background-image: url('../img/fb.png');
+}
+
+#linkedin {
+    background-image: url('../img/linkedin.ico');
+}
+
+#git {
+    background-image: url('../img/git.png');
+}
+
+#email {
+    background-image: url('../img/email.png');
+}
+
+div {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-flow: row wrap;
+    background-color: grey;
+    padding-bottom: 50px;
+    border: 5px solid black;
+    box-shadow: 3px 3px 3px black;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    width: 40%;
+    min-width: 350px;
+}
