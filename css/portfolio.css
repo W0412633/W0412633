@@ -22,9 +22,9 @@ header {
 	padding-left: 10%;
 	background-color: grey;
 	color: white;
-	border: 5px solid black;
+	border: 5px solid white;
 	flex-direction: column;
-	box-shadow: 3px 3px 3px black;
+	box-shadow: 3px 3px 3px white;
 	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
@@ -62,7 +62,7 @@ nav a {
 	padding-bottom: 5px;
 	text-align: center;
 	transition-duration: 0.15s;
-	border: 1px solid black;
+	border: 1px solid white;
 }
 
 nav a:visited {
@@ -71,7 +71,7 @@ nav a:visited {
 }
 
 nav a:hover {
-	color: grey;
+	color: black;
 	background-color: white;
 }
 
@@ -126,8 +126,8 @@ div > div {
 	align-items: center;
 	flex-direction: column;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	border: 3px solid black;
-	box-shadow: 3px 3px 3px black;
+	border: 3px solid white;
+	box-shadow: 3px 3px 3px white;
 	border-radius: 8px;
 }
 
@@ -140,4 +140,11 @@ div > div > div {
 	color: white;
 	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 	font-size: 14px;
+	border: 3px solid black;
+	box-shadow: 3px 3px 3px black;
+}
+
+html {
+	background-image: url('../img/bg.jpg');
+	font-family: 'Frank Ruhl Libre';
 }
