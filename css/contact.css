@@ -1,3 +1,8 @@
+/* Author: Jacob Edwards */
+/* Web Development Final Project Contact Styles */
+
+/* Styles for Introductory Blurb */
+
 p {
     width: 40%;
     min-width: 350px;
@@ -14,6 +19,8 @@ p {
     background-color: rgba(255,255,255,.9);
 }
 
+/* Styles for Links Container */
+
 #links {
     display: flex;
     justify-content: space-around;
@@ -25,6 +32,8 @@ p {
     box-shadow: 3px 3px 3px white;
     background-color: grey;
 }
+
+/* Styles for Link Buttons */
 
 .button {
     display: inline-block;

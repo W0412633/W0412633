@@ -1,3 +1,8 @@
+/* Author: Jacob Edwards */
+/* Web Development Final Project Goals Styles */
+
+/* Styles for Table Container */
+
 #tableback {
 	width: 80%;
 	min-width: 580px;
@@ -9,12 +14,15 @@
 	background-color: rgba(255, 255, 255, .9);
 }
 
+/* Styles for Table Borders */
+
 table, th, td {
+	border: 2px solid black;
 	border-collapse: separate;
 	border-spacing: 1px;
-	font-family: 'Frank Ruhl Libre';
-	border: 2px solid black;
 }
+
+/* Styles for Table Captions */
 
 caption {
 	margin-bottom: 5px;
@@ -25,10 +33,14 @@ caption {
 	text-align: left;
 }
 
+/* Styles for Table Headings */
+
 th {
 	color: white;
 	background-color: grey;
 }
+
+/* Styles for Table Cells */
 
 td {
 	width: 20%;

@@ -1,3 +1,8 @@
+/* Author: Jacob Edwards */
+/* Web Development Final Project General and Homepage Styles */
+
+/* Adding Custom Fonts */
+
 @font-face {
     font-family: 'denseregular';
     src: url('../fonts/Dense-Regular.otf') format('opentype');
@@ -12,10 +17,14 @@
 	font-style: normal;
 }
 
+/* Setting Default Font and Site Background */
+
 html {
 	font-family: 'Frank Ruhl Libre';
 	background-image: url('../img/bg.jpg');
 }
+
+/* Defining Site Header Styles */
 
 header {
 	display: flex;
@@ -38,6 +47,8 @@ h1 {
 h2 {
 	font-size: 32px;
 }
+
+/* Defining Nav Bar Styles */
 
 nav li {
 	float: left;
@@ -72,6 +83,8 @@ nav a:hover {
 	background-color: white;
 }
 
+/* Headshot Styles */
+
 #avatar {
 	float: right;
 	margin-right: 5%;
@@ -80,6 +93,8 @@ nav a:hover {
 	border: 1px solid black;
 	box-shadow: 2px 2px 2px black;
 }
+
+/* Styles for Images and Captions on Homepage */
 
 .home {
 	display: flex;

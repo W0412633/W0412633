@@ -1,3 +1,8 @@
+/* Author: Jacob Edwards */
+/* Web Development Final Project Skills Styles */
+
+/* Style for List of Skills */
+
 #skills {
     float: left;
     width: 50%;
@@ -16,6 +21,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
 }
+
+/* Styles for Image Links to Work Examples */
 
 #example {
     display: flex;
