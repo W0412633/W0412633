@@ -1,27 +1,41 @@
-@font-face {
-	font-family: 'dubairegular';
-	src: url('../fonts/Dubai-Regular.ttf') format('truetype');
-	font-weight: normal;
-    font-style: normal;
-}
-
 article {
     width: 80%;
     margin: auto;
-    font-family: dubairegular;
-    background-color: rgba(255,255,255,.9);
-    padding: 10px;
     margin-top: 30px;
+    padding: 10px;
     border-radius: 8px;
+    font-family: dubairegular;
+    background-color: rgba(255, 255, 255, .9);
+}
+
+section:nth-child(even) {
+    padding: 10px;
+    background-color: white;
 }
 
 h3 {
     font-variant: small-caps;
 }
 
-div {
+hr {
+    border: 1px solid black;
+}
+
+#contact {
     display: flex;
     justify-content: space-between;
+}
+
+#contact a {
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+#contact a:visited {
+    color: navy;
 }
 
 article li {
@@ -32,45 +46,19 @@ article li:first-child {
     padding-top: 0px;
 }
 
-section:nth-child(even) {
-    background-color: white;
-    padding: 10px;
-}
-
-/*section {
-    padding: 10px;
-    border-radius: 10px;
-}*/
-
-hr {
+#adobe {
+    float: right;
+    margin-right: 5%;
     border: 1px solid black;
-}
-
-body > a {
-	position: relative;
-	float: right;
-	margin-right: 5%;
-	top: -130px;
-	border: 1px solid black;
     box-shadow: 2px 2px 2px black;
+	position: relative;
+    top: -130px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
     background-color: white;
-    text-decoration: none;
+}
+
+#adobe:visited {
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    
-}
-
-body > a:visited {
-    color: black;
-}
-
-p > a {
-    text-decoration: none;
-}
-
-p > a:hover {
-    text-decoration: underline;
-}
-
-p > a:visited {
-    color: navy;
 }

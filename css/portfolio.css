@@ -12,62 +12,59 @@
 	font-style: normal;
 }
 
-@font-face {
-	font-family: 'Frank Ruhl Libre', serif;
+html {
+	font-family: 'Frank Ruhl Libre';
+	background-image: url('../img/bg.jpg');
 }
 
 header {
 	display: flex;
+	flex-direction: column;
 	margin-top: -10px;
 	padding-left: 10%;
-	background-color: grey;
-	color: white;
 	border: 5px solid white;
-	flex-direction: column;
 	box-shadow: 3px 3px 3px white;
+	font-family: denseregular, Arial;
 	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+	color: white;
+	background-color: grey;
 }
 
 h1 {
 	font-size: 60px;
-	font-family: denseregular, Arial;
 	font-weight: 400;
-	
 }
 
 h2 {
-	font-family: denseregular, Arial;
 	font-size: 32px;
 }
 
 nav li {
-	position: relative;
-	left: -48px;
-	display: inline;
 	float: left;
-	list-style-type: none;
 	width: 20%;
 	margin-bottom: 20px;
+	position: relative;
+	left: -48px;
+	list-style-type: none;
 }
 
 nav a {
 	display: block;
 	width: 100%;
-	text-decoration: none;
-	font-family: Verdana;
-	color: white;
-	background-color: grey;
-	padding-right: 54px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	text-align: center;
-	transition-duration: 0.15s;
+	padding-right: 54px;
 	border: 1px solid white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	background-color: grey;
+	transition-duration: 0.15s;
 }
 
 nav a:visited {
 	color: white;
-	background-color: grey;
 }
 
 nav a:hover {
@@ -76,24 +73,30 @@ nav a:hover {
 }
 
 #avatar {
-	position: relative;
 	float: right;
 	margin-right: 5%;
+	position: relative;
 	top: -205px;
 	border: 1px solid black;
 	box-shadow: 2px 2px 2px black;
 }
 
-#home1 {
-	padding-top: -50px;
-}
-
-#home1, #home2 {
-	margin: auto;
+.home {
 	display: flex;
-	width: 100%;
 	justify-content: space-around;
 	align-items: center;
+	width: 100%;
+}
+
+.home > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border: 3px solid white;
+	box-shadow: 3px 3px 3px white;
+	border-radius: 8px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #bike {
@@ -120,31 +123,16 @@ nav a:hover {
 	background-image: url("../img/music.jpg");
 }
 
-div > div {
+.home > div > div {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	flex-direction: column;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	border: 3px solid white;
-	box-shadow: 3px 3px 3px white;
-	border-radius: 8px;
-}
-
-div > div > div {
-	background-color: rgba(128, 128, 128, 0.5);
-	padding: 10px;
-	border-radius: 0px;
-	text-align: center;
 	width: 50%;
-	color: white;
-	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-	font-size: 14px;
+	padding: 10px;
 	border: 3px solid black;
 	box-shadow: 3px 3px 3px black;
-}
-
-html {
-	background-image: url('../img/bg.jpg');
-	font-family: 'Frank Ruhl Libre';
+	font-size: 14px;
+	text-align: center;
+	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+	color: white;
+	background-color: rgba(128, 128, 128, 0.5);
 }

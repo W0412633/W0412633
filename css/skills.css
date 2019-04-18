@@ -1,37 +1,37 @@
-div {
-    display: flex;
-    flex-direction: column;
+#skills {
     float: left;
-    align-items: flex-end;
-    margin-left: 15%;
-    margin-top: 10px;
-}
-
-body > ul {
-    float: left;
-    margin-left: 8%;
     width: 50%;
-    background-color: rgba(255,255,255,.9);
     margin-top: 6vh;
-    border-radius: 8px;
+    margin-left: 8%;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 8px;
     list-style-position: inside;
+    background-color: rgba(255, 255, 255, .9);
 }
 
-body > ul > li {
-    font-size: 18px;
+#skills li {
     padding-top: 35px;
     padding-bottom: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
 }
 
-div > a {
+#example {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    float: left;
+    margin-top: 10px;
+    margin-left: 15%;
+}
+
+#example a {
+    margin-bottom: 5px;
     border: 1px solid black;
     box-shadow: 3px 3px 3px white;
-    margin-bottom: 5px;
 }
 
-div > a:active {
+#example a:active {
     transform: translateY(3px);
 }
